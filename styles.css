@@ -168,7 +168,7 @@ header .fa-bars{
     position: absolute;
     width: 100%;
     right: 0;
-    bottom: 0;
+    margin-top: 4.5rem;
     padding: 1rem 4rem;
     border: 1px solid #5e5e5e;
 }
@@ -653,7 +653,7 @@ footer p span{
 .home .bottom-banner{
     width: 100%;
     right: 0%;
-    bottom: 0;
+    margin-top: 8rem;
     padding: 1rem 0rem;
 }
 .home .bottom-banner .banner-conta{
