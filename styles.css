@@ -122,9 +122,12 @@ header .fa-bars{
     transform: scale(1.05);
 }
 .home{
+    position: relative;
     padding: 10rem 5%;
+    min-height: 100vh;
     background-image: url(battery-bay.png);
     background-position: center;
+    background-size: cover;
 }
 .home .hero-content{
     display: flex;
@@ -167,8 +170,8 @@ header .fa-bars{
     background-color: #000;
     position: absolute;
     width: 100%;
-    right: 0;
-    margin-top: 4.5rem;
+    left: 0;
+    bottom: 0;
     padding: 1rem 4rem;
     border: 1px solid #5e5e5e;
 }
@@ -651,9 +654,6 @@ footer p span{
 }
 
 .home .bottom-banner{
-    width: 100%;
-    right: 0%;
-    margin-top: -4.5rem;
     padding: 1rem 0rem;
 }
 .home .bottom-banner .banner-conta{
